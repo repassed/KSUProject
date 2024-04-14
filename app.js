@@ -56,7 +56,7 @@ app.post('/send',
     });
 
     app.get('/success', (request, response) => {
-        response.send('alert("Message has been sent")')
+        response.send('<p>Message has been sent</p>')
     });
 
     app.listen(3000,() => {
